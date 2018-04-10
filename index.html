@@ -38,9 +38,9 @@
 		section.appendChild(paragraph);
 		/* STEP 3d: Refresh the page in the browser and look at the updated element inspector */
 		/* STEP 3e: Create a text node, and insert it into the paragraph that contains the link */
-
-
-
+    var text = document.createTextNode(' - the best sourrce for web development infomation on the web.');
+    var linkParagraph =document.querySelector('section p');
+    linkParagraph.appendChild(text);
 		/* STEP 4: Moving and Removing DOM Elements
 		Sometimes it is necessary to move nodes of the DOM around or delete them entirely */
 		/* STEP 4a: Move linkParagraph to another location in the DOM */
